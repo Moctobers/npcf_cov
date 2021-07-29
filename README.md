@@ -44,8 +44,7 @@ for the lowest order Λ and Λ' combination can be simply obtained by:
 
       fname_f3l = "path_to_f3l_file"
       fname_GLs = "path_to_GLs_file"
-      Cov_Model_4pcf = model_cov_4PCF(meta_data=meta_data, fname_f3l=fname_f3l, fname_GLs=fname_gls, 
-                                r_in=r_in, ndim=ndim, verbose=False)
+      Cov_Model_4pcf = model_cov_4PCF(meta_data=meta_data, fname_f3l=fname_f3l, fname_GLs=fname_gls)
 
       Cov_Model_4pcf.run()
       

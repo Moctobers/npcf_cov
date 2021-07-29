@@ -21,17 +21,8 @@ The input of the code includes:
 -- f-integral: 
       if this has been calculated using the code, it can be directly loaded
       
-      io_flll(action='load', fname=your_file_name)
-      
-      elsewise, it can also be computed on the fly
-
-      
 -- GLS coefficients: 
       if this has been calculated using the code, it can be directly loaded
-
-      io_GLs(action='load', fname=your_file_name)
-      
-      elsewise, it can also be computed on the fly
       
 -- In case there is specific needs to customize the k-vector, power spectrum,
     survey volume, dimensional of the covariance, they can all feed in manually.

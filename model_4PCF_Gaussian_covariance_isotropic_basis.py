@@ -665,7 +665,7 @@ class model_cov_4PCF(object):
                      
         return self.yint
 
-    def calc_GLs_bob(self, ells, which_group='block1_case1', idx_six=0):
+    def calc_GLs2(self, ells, which_group='block1_case1', idx_six=0):
         
         '''
             calculate GLs using Bob's notation
@@ -712,10 +712,10 @@ class model_cov_4PCF(object):
         
         return ans
         
-    def calc_GLs_oliver(self, ells, which_group):
+    def calc_GLs(self, ells, which_group):
         
         '''
-            calculate GLs using Oliver's notation
+            calculate GLs
             
             ells:
                 permuted l1, l1', l1'', l2, l2', l2'', l3, l3, l3''
@@ -786,7 +786,7 @@ class model_cov_4PCF(object):
                             key_ell = "".join(map(str, ell_perm))
                             key_GLs = ",".join([key_ell, ig])
                             if key_GLs not in keys:
-                                G_Ls = self.calc_GLs_oliver(ells=ell_perm, which_group=ig)
+                                G_Ls = self.calc_GLs(ells=ell_perm, which_group=ig)
                                 GLs_dict[key_GLs] = G_Ls
                                 keys.append(key_ell)
 

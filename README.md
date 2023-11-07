@@ -50,3 +50,6 @@ To compute the f-integral and the GLs coefficients:
       cov_obj.gen_jnbar_dict(verbose=True)
       cov_obj.io_flll(action='save', fname=fname_f3l)
       cov_obj.io_flll(action='save', fname=fname_GLs)
+
+## Reference
+"Analytic Gaussian covariance matrices for galaxy N -point correlation functions" (2021) ([Phys. Rev. D 106, 043515](https://ui.adsabs.harvard.edu/abs/2022PhRvD.106d3515H/abstract))

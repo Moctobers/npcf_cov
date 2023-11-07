@@ -1,3 +1,5 @@
+# Gaussian Covariance for N-point Correlation Functions in Isotropic Basis Functions 
+
 ####
 
 This code calculates the covariance matrix of 

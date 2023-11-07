@@ -1,4 +1,4 @@
-# Gaussian Covariance for N-point Correlation Functions in Isotropic Basis Functions 
+# Gaussian Covariance for N-point Correlation Functions in Isotropic Basis Functions (GlenCadaM)
 
 ####
 

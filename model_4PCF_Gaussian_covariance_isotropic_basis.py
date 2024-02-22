@@ -850,6 +850,8 @@ class model_cov_4PCF(object):
                                                 self.wrap_ells_fc(ell_perm, which_group=ig)
                                                 self.wrap_flll_keys_fc()
                                                 yint = self.get_yint_fc(ell_perm, ig, idx_six, ic)
+                                                if idx_six in (1, 2, 3):
+                                                    yint *= (-1)**sum(l_Gs)
                                                 self.yint_arr[rbin_i, rbin_j] += yint
                                                 self.y_arr_24[rbin_i, rbin_j, gg*6+idx_six] += yint
 
